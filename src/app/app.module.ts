@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CardDetailComponent } from './card-detail/card-detail.component';
 import {HttpClientModule} from "@angular/common/http";
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import {HttpClientModule} from "@angular/common/http";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxSkeletonLoaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
