@@ -1,0 +1,7 @@
+<div class="card" *ngIf="user$ | async as user">
+  <div class="card-body">
+    <h4 class="card-title">{{user.name}}</h4>
+    <p class="card-text">{{user.email}}</p>
+    <a routerLink="/users"><<< Back</a>
+  </div>
+</div>

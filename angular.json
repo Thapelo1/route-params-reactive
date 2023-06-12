@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/mint.css",
               "src/styles.css"
             ],
             "scripts": []
